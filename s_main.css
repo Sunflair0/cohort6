@@ -1,0 +1,108 @@
+* {
+    padding: 0%; 
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: purple;
+}
+
+ul {
+    display: flex; 
+    justify-content: space-around;
+    margin: 20px;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+nav {
+    margin-bottom: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all .3s;
+    font-size: larger;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(196, 162, 228);
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+}
+.spacing{
+margin-bottom: 5rem;
+}
+
+.photos h3 {
+    color: rgb(0, 255, 255);
+    text-align: center;
+    border: 2px aqua solid;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.47);
+    text-shadow: 2px 2px 2px rgb(94, 139, 176);
+
+}
+.photos p {
+    color:white ;
+    margin-top: 10px;
+}
+/* unvisited link */
+
+a:link {
+
+    color: darkblue;
+  
+  }
+  
+  
+  
+  /* visited link */
+  
+  a:visited {
+  
+    color: rgb(157, 240, 157);
+  
+  }
+  
+  
+  
+  /* mouse over link */
+  
+  a:hover {
+  
+    color: hotpink;
+  
+  }
+  
+  
+  
+  /* selected link */
+  
+  a:active {
+  
+    color: blue;
+  
+  }
+
+  .banna {
+
+    background-image: url(s_asset/banna.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 80vh;
+  }

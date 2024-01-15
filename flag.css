@@ -1,0 +1,29 @@
+a:link.flag,
+a:visited.flag {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.flag{
+	position: fixed;
+	font-size: medium;
+	font-weight: 500;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: 2px solid rgb(0, 0, 0);
+	border-right: transparent;
+	background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.4), transparent);
+	background-size: 5px 5px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	text-transform: uppercase;
+	height: max-content;
+	width: 40px;
+	padding: 10px;
+	right: 0px;
+	top: 7.5vh;
+	text-decoration: none;
+	border-radius: 10px 0 0 10px;
+	box-shadow: 0 0 7px black inset;
+	cursor: pointer;
+	z-index: 100;
+}
