@@ -49,8 +49,8 @@ a:hover {
 }
 
 p {
-	margin: 1em 0 0;
-	font-size: clamp(14px, 2vw, 21px);
+	margin: auto;
+	font-size: clamp(14px, 1.85vw, 18px);
 }
 
 span.name {
@@ -206,7 +206,6 @@ span.name {
 	padding: calc(var(--gap) * 2);
 	outline: 2px var(--accent_color) solid;
 	outline-offset: calc(var(--gap) * -1);
-	overflow-y: auto;
 }
 
 .div6 {
